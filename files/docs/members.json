@@ -1,11 +1,20 @@
 {
-    "Research Fellows": [
+    "Postdoctoral Researchers": [
         {
             "name": "Soumik Adhikary",
             "role": "Research Fellow",
             "image": "files/images/people/blank.webp",
             "quote": "",
             "links": {}
+        },
+        {
+            "name": "Jinge Bao",
+            "role": "Research Assistant",
+            "image": "files/images/people/jinge_bao.jpg",
+            "quote": "",
+            "links": {
+                "fa-globe": "http://dsxxxk.github.io"
+            }
         },
         {
             "name": "Bin Cheng",
@@ -79,15 +88,13 @@
             "links": {}
         }
     ],
-    "Research Assistants": [
+    "MSc Students & Undergraduates": [
         {
-            "name": "Jinge Bao",
-            "role": "Research Assistant",
-            "image": "files/images/people/jinge_bao.jpg",
+            "name": "Aman Agrawal",
+            "role": "MSc Student",
+            "image": "files/images/people/blank.webp",
             "quote": "",
-            "links": {
-                "fa-globe": "http://dsxxxk.github.io"
-            }
+            "links": {}
         },
         {
             "name": "Po-Wei Huang",
@@ -100,15 +107,6 @@
                 "fa-brands fa-linkedin": "https://www.linkedin.com/in/huangpowei",
                 "fa-globe": "http://georgepwhuang.github.io"
             }
-        }
-    ],
-    "Master Students & Research Interns": [
-        {
-            "name": "Aman Agrawal",
-            "role": "MSc Student",
-            "image": "files/images/people/blank.webp",
-            "quote": "",
-            "links": {}
         },
         {
             "name": "Petr Ivashkov",
