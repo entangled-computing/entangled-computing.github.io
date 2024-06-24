@@ -1,0 +1,18 @@
+{
+    "name": "Patrick Rebentrost",
+    "role": "Principal Investigator",
+    "introduction": "Patrick is an assistant professor at the Department of Computer Science, National University of Singapore, as well as a principal investigator at the Centre of Quantum Technologies, Singapore. His research interests are in quantum computing, quantum algorithms, quantum machine learning, learning theory, and mathematical finance.",
+    "image": "files/images/people/patrick.jpg",
+    "links": [
+        {
+            "icon": "fa-envelope",
+            "description": "Email Patrick",
+            "href": "mailto:patrick@comp.nus.edu.sg"
+        },
+        {
+            "icon": "fa-brands fa-google-scholar",
+            "description": "Google Scholar",
+            "href": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ"
+        }
+    ]
+}

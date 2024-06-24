@@ -1,0 +1,197 @@
+{
+    "Research Fellows": [
+        {
+            "name": "Soumik Adhikary",
+            "role": "Research Fellow",
+            "image": "files/images/people/soumik_adhikary.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Bin Cheng",
+            "role": "Research Fellow",
+            "image": "files/images/people/bin_cheng.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Feng Pan",
+            "role": "Research Fellow",
+            "image": "files/images/people/feng_pan.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Lirandë Pira",
+            "role": "Research Fellow",
+            "image": "files/images/people/lirande_pira.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        }
+    ],
+    "PhD Students": [
+        {
+            "name": "Beng Yee Gan",
+            "role": "CQT PhD Student",
+            "image": "files/images/people/beng_yee_gan.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Naixu Guo",
+            "role": "CQT PhD Student",
+            "image": "files/images/people/naixu_guo.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Kelvin Koor",
+            "role": "CQT PhD Student",
+            "image": "files/images/people/kelvin_koor.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Xiufan Li",
+            "role": "CQT PhD Student",
+            "image": "files/images/people/xiufan_li.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Yixian Qiu",
+            "role": "CQT PhD Student",
+            "image": "files/images/people/yixian_qiu.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Zhan Yu",
+            "role": "CQT PhD Student",
+            "image": "files/images/people/zhan_yu.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        }
+    ],
+    "Research Assistants": [
+        {
+            "name": "Jinge Bao",
+            "role": "Post-Doctoral Research Assistant",
+            "image": "files/images/people/jinge_bao.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Po-Wei Huang",
+            "role": "Research Assistant",
+            "image": "files/images/people/po_wei_huang.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        }
+    ],
+    "Research Interns": [
+        {
+            "name": "Aman Agrawal",
+            "role": "Research Intern",
+            "image": "files/images/people/aman_agrawal.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Peter Ivashkov",
+            "role": "Research Intern",
+            "image": "files/images/people/peter_ivashkov.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Maxime Meyer",
+            "role": "Research Intern",
+            "image": "files/images/people/maxime_meyer.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Nayanthara Prathap",
+            "role": "Research Intern",
+            "image": "files/images/people/nayanthara_prathap.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
+            "name": "Elaina Zhu",
+            "role": "Research Intern",
+            "image": "files/images/people/elaina_zhu.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        }
+    ]
+}
