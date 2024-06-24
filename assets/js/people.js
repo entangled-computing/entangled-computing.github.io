@@ -1,7 +1,7 @@
 const piData = fetch("files/docs/pi.json").then(response => {return response.json();})
 
 piData.then(data => {
-  area = document.querySelector("#pi");
+  area = document.getElementById("pi");
   htmlStr = `
   <div class="container">
     <div class="row" style="margin-bottom:10px">
@@ -36,15 +36,15 @@ piData.then(data => {
         </div>
       </div>
     </div>
-    <hr class="divider-w">
-  </div>`;
+  </div>
+  <hr class="divider-w">`;
   area.innerHTML = htmlStr;
 });
 
 const memberData = fetch("files/docs/members.json").then(response => {return response.json();})
 
 memberData.then(data => {
-  area = document.querySelector("#members");
+  area = document.getElementById("members");
   htmlStr = "";
   for (let position in data) {
     htmlStr += `
@@ -90,14 +90,14 @@ memberData.then(data => {
       </div>
       `;
       if (i == len - 1){
-        htmlStr += `</div>
-                <hr class="divider-w">`;
+        htmlStr += `</div>`;
       }
       else if (i % 4 == 3) {
         htmlStr += `</div>`;
       }
     }
-    htmlStr += `</section>`;
+    htmlStr += `</section>
+    <hr class="divider-w">`;
   }
   area.innerHTML = htmlStr;
 });
@@ -105,7 +105,7 @@ memberData.then(data => {
 const alumData = fetch("files/docs/alumni.json").then(response => {return response.json();})
 
 alumData.then(data => {
-  area = document.querySelector("#alum");
+  area = document.getElementById("alum");
   htmlStr = `
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">

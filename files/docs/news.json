@@ -1,0 +1,37 @@
+[
+    {
+        "headline": "New paper posted on arXiv",
+        "description": "Quantum algorithm for large-scale market equilibrium computation",
+        "date": "2024-05-22"
+    },
+    {
+        "headline": "Paper accepted as talk at TQC 2024",
+        "description": "The Quantum Esscher Transform",
+        "date": "2024-04-14"
+    },
+    {
+        "headline": "Talk given at The 3rd Quantum Computing Workshop",
+        "description": "Quantum linear algebra is all you need for Transformer architectures",
+        "date": "2024-04-12"
+    },
+    {
+        "headline": "New paper posted on arXiv",
+        "description": "Efficient Quantum Circuits for Machine Learning Activation Functions including Constant T-depth ReLU",
+        "date": "2024-04-09"
+    },
+    {
+        "headline": "New paper posted on arXiv",
+        "description": "Quantum linear algebra is all you need for Transformer architectures",
+        "date": "2024-02-26"
+    },
+    {
+        "headline": "Paper published on Quantum Inf. Process.",
+        "description": "A quantum online portfolio optimization algorithm",
+        "date": "2024-02-16"
+    },
+    {
+        "headline": "New paper posted on arXiv",
+        "description": "The Quantum Esscher Transform",
+        "date": "2024-01-15"
+    }
+]
