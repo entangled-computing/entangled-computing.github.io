@@ -230,18 +230,22 @@ a,
 /* Dark background */
 .bg-dark,
 .bg-dark-30,
+.bg-dark-45,
 .bg-dark-60,
 .bg-dark-90,
 .bg-dark .module-title,
 .bg-dark-30 .module-title,
+.bg-dark-45 .module-title,
 .bg-dark-60 .module-title,
 .bg-dark-90 .module-title,
 .bg-dark .module-subtitle,
 .bg-dark-30 .module-subtitle,
+.bg-dark-45 .module-subtitle,
 .bg-dark-60 .module-subtitle,
 .bg-dark-90 .module-subtitle,
 .bg-dark .alt-module-subtitle h5,
 .bg-dark-30 .alt-module-subtitle h5,
+.bg-dark-45 .alt-module-subtitle h5,
 .bg-dark-60 .alt-module-subtitle h5,
 .bg-dark-90 .alt-module-subtitle h5 {
   color: #fff;
@@ -254,6 +258,16 @@ a,
 .bg-dark-30:before {
   position: absolute;
   background: rgba(2, 2, 2, 0.4);
+  content: " ";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.bg-dark-45:before {
+  position: absolute;
+  background: rgba(34, 34, 34, 0.6);
   content: " ";
   height: 100%;
   width: 100%;
@@ -1417,10 +1431,6 @@ General Styles - Owlcarousel
 .about-page-header {
   max-height: 35vw;
   margin-bottom: 30px;
-}
-
-.about-page-header:before {
-  background: rgba(2, 2, 2, 0.2);
 }
 
 

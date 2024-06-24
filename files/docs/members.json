@@ -161,6 +161,17 @@
             }
         },
         {
+            "name": "Ruben Maarek",
+            "role": "Research Intern",
+            "image": "files/images/people/ruben_maarek.jpg",
+            "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "links": {
+                "fa-envelope": "mailto:patrick@comp.nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=XWHSBmUAAAAJ&hl=en",
+                "fa-globe": "http://google.com"
+            }
+        },
+        {
             "name": "Maxime Meyer",
             "role": "Research Intern",
             "image": "files/images/people/maxime_meyer.jpg",
