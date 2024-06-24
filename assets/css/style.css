@@ -257,7 +257,7 @@ a,
 
 .bg-dark-30:before {
   position: absolute;
-  background: rgba(2, 2, 2, 0.4);
+  background: rgba(10, 10, 10, 0.3);
   content: " ";
   height: 100%;
   width: 100%;
@@ -267,7 +267,7 @@ a,
 
 .bg-dark-45:before {
   position: absolute;
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(10, 10, 10, 0.6);
   content: " ";
   height: 100%;
   width: 100%;
@@ -277,7 +277,7 @@ a,
 
 .bg-dark-60:before {
   position: absolute;
-  background: rgba(34, 34, 34, 0.8);
+  background: rgba(10, 10, 10, 0.8);
   content: " ";
   height: 100%;
   width: 100%;
@@ -287,7 +287,7 @@ a,
 
 .bg-dark-90:before {
   position: absolute;
-  background: rgba(34, 34, 34, 0.9);
+  background: rgba(10, 10, 10, 0.9);
   content: " ";
   height: 100%;
   width: 100%;
