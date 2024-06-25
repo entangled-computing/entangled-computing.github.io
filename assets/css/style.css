@@ -2834,6 +2834,9 @@ pre {
   .navbar-custom {
     letter-spacing: 1px;
   }
+  .module-title {
+    margin-top: 0px
+  }
 }
 
 
@@ -2897,6 +2900,9 @@ pre {
   .side-image {
     position: relative;
     height: 300px;
+  }
+  .module-title {
+    margin-top: -10px
   }
 }
 
@@ -3056,6 +3062,7 @@ pre {
     display: block;
   }
   .module-title {
+    margin-top: -20px;
     margin-bottom: 35px;
   }
   .team-descr {

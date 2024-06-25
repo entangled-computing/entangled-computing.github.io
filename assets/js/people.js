@@ -28,7 +28,7 @@ piData.then(data => {
   color = ["d", "g", "border-d"];
   for (let i = 0, len = links.length; i < len; i++) {
     let linker = links[i];
-    htmlStr += `<a class="btn btn-${color[i%4]} btn-circle mb-sm-10" href="${linker["href"]}" target="_blank"><i class="fa ${linker["icon"]}"></i> ${linker["description"]}</a> `;
+    htmlStr += `<a class="btn btn-${color[i%3]} btn-circle mb-sm-10" href="${linker["href"]}" target="_blank"><i class="fa ${linker["icon"]}"></i> ${linker["description"]}</a> `;
   }
   htmlStr += `          
             </div>

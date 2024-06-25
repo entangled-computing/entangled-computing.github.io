@@ -3,9 +3,11 @@
         {
             "name": "Soumik Adhikary",
             "role": "Research Fellow",
-            "image": "files/images/people/blank.webp",
-            "quote": "",
-            "links": {}
+            "image": "files/images/people/soumik_adhikary.jpg",
+            "quote": "When in doubt, blame the quantum fuzz!",
+            "links": {
+                "fa-envelope": "mailto:soumik@nus.edu.sg"
+            }
         },
         {
             "name": "Jinge Bao",
@@ -19,6 +21,16 @@
         {
             "name": "Bin Cheng",
             "role": "Research Fellow",
+            "image": "files/images/people/bin_cheng.png",
+            "quote": "Quantum computer scientist",
+            "links": {
+                "fa-envelope": "mailto:bincheng@nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=WcIQUTsAAAAJ"
+            }
+        },
+        {
+            "name": "Debbie Lim",
+            "role": "Visiting Scholar",
             "image": "files/images/people/blank.webp",
             "quote": "",
             "links": {}
@@ -26,16 +38,21 @@
         {
             "name": "Feng Pan",
             "role": "Research Fellow",
-            "image": "files/images/people/blank.webp",
-            "quote": "",
-            "links": {}
+            "image": "files/images/people/feng_pan.jpg",
+            "quote": "Reductionism sceptic",
+            "links": {
+                "fa-envelope": "mailto:feng_pan@nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=ZDEkIDsAAAAJ"
+            }
         },
         {
             "name": "Lirandë Pira",
             "role": "Research Fellow",
-            "image": "files/images/people/blank.webp",
+            "image": "files/images/people/lirande_pira.jpg",
             "quote": "",
-            "links": {}
+            "links": {
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/lirandepira/"
+            }
         }
     ],
     "PhD Students": [
@@ -56,9 +73,12 @@
         {
             "name": "Kelvin Koor",
             "role": "CQT PhD Student",
-            "image": "files/images/people/blank.webp",
+            "image": "files/images/people/kelvin_koor.jpg",
             "quote": "",
-            "links": {}
+            "links": {
+                "fa-envelope": "mailto:kelvinkoor@u.nus.edu",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=0zF67qgAAAAJ"
+            }
         },
         {
             "name": "Xiufan Li",
