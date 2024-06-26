@@ -13,7 +13,15 @@
     Favicons
     =============================================
     -->
-    <link rel="shortcut icon" href="files/images/favicons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/files/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/files/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/files/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/files/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/files/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/files/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/files/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
     <!--  
     Stylesheets
     =============================================
@@ -70,7 +78,7 @@
             </div>
           </div>
         </section>
-        <section class="module-extra-small biblist">
+        <section class="module-small biblist">
           <div class="bibtex_structure">
             <div class="group year col-sm-10 col-sm-offset-1" extra="DESC number">
               <div class="sort date" extra="DESC date">
@@ -133,31 +141,31 @@
               </div>
           </div>
         </section>
-        <footer class="footer bg-dark">
-          <bibtex src="files/docs/ref.bib" style="display: none"></bibtex>
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <p class="copyright font-alt">&copy; <span class="this-year"></span> <a href="index.html">quantum operations research</a><br/>
-                Last updated <span class="last-modified"></span>, Powered by <a href="https://themewagon.com/themes/titan/">TITAN</a></p>
-              </div>
+      </div>
+      <footer class="footer bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="copyright font-alt">&copy; <span class="this-year"></span> <a href="index.html">quantum operations research</a><br/>
+              Last updated <span class="last-modified"></span>, Powered by <a href="https://themewagon.com/themes/titan/">TITAN</a></p>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
       <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
+    <bibtex src="files/docs/ref.bib" style="display: none"></bibtex>
     <!--  
     JavaScripts
     =============================================
     -->
-    <script src="assets/js/bibtex_js.js"></script>
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/bibtex_js.min.js"></script>
   </body>
 </html>

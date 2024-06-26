@@ -6,22 +6,14 @@
             "image": "files/images/people/soumik_adhikary.jpg",
             "quote": "When in doubt, blame the quantum fuzz!",
             "links": {
-                "fa-envelope": "mailto:soumik@nus.edu.sg"
-            }
-        },
-        {
-            "name": "Jinge Bao",
-            "role": "Research Assistant",
-            "image": "files/images/people/jinge_bao.jpg",
-            "quote": "",
-            "links": {
-                "fa-globe": "http://dsxxxk.github.io"
+                "fa-envelope": "mailto:soumik@nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.co.in/citations?user=lk5bVfgAAAAJ"
             }
         },
         {
             "name": "Bin Cheng",
             "role": "Research Fellow",
-            "image": "files/images/people/bin_cheng.png",
+            "image": "files/images/people/bin_cheng.jpg",
             "quote": "Quantum computer scientist",
             "links": {
                 "fa-envelope": "mailto:bincheng@nus.edu.sg",
@@ -30,7 +22,7 @@
         },
         {
             "name": "Debbie Lim",
-            "role": "Visiting Scholar",
+            "role": "Visiting Postdoc",
             "image": "files/images/people/blank.webp",
             "quote": "",
             "links": {}
@@ -59,16 +51,24 @@
         {
             "name": "Beng Yee Gan",
             "role": "CQT PhD Student",
-            "image": "files/images/people/blank.webp",
-            "quote": "",
-            "links": {}
+            "image": "files/images/people/beng_yee_gan.jpg",
+            "quote": "Quantum physicist surviving the machine learning wilderness.",
+            "links": {
+                "fa-envelope": "mailto:gan.bengyee@u.nus.edu",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=pTkE29cAAAAJ",
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/gan-beng-yee/"
+            }
         },
         {
             "name": "Naixu Guo",
             "role": "CQT PhD Student",
             "image": "files/images/people/blank.webp",
             "quote": "",
-            "links": {}
+            "links": {
+                "fa-envelope": "mailto:naixug@u.nus.edu",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=r2I_WtAAAAAJ",
+                "fa-globe": "https://naixu-guo.github.io"
+            }
         },
         {
             "name": "Kelvin Koor",
@@ -96,37 +96,57 @@
         {
             "name": "Yixian Qiu",
             "role": "CQT PhD Student",
-            "image": "files/images/people/blank.webp",
+            "image": "files/images/people/yixian_qiu.jpg",
             "quote": "",
-            "links": {}
+            "links": {
+                "fa-envelope": "mailto:yixian_qiu@u.nus.edu",
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/yixian-qiu"
+            }
         },
         {
             "name": "Zhan Yu",
             "role": "CQT PhD Student",
-            "image": "files/images/people/blank.webp",
+            "image": "files/images/people/zhan_yu.jpg",
             "quote": "",
-            "links": {}
+            "links": {
+                "fa-envelope": "mailto:yu.zhan@u.nus.edu",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=cF8RgGwAAAAJ",
+                "fa-globe": "https://eyesfrog.github.io"
+            }
         }
     ],
-    "MSc Students & Undergraduates": [
+    "Research Assistants": [
+        {
+            "name": "Jinge Bao",
+            "role": "Research Assistant",
+            "image": "files/images/people/jinge_bao.jpg",
+            "quote": "",
+            "links": {
+                "fa-envelope": "mailto:jbao@nus.edu.sg",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=U1TGq_gAAAAJ",
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/jinge-bao",
+                "fa-globe": "http://dsxxxk.github.io"
+            }
+        },
+        {
+            "name": "Po-Wei Huang",
+            "role": "Research Assistant",
+            "image": "files/images/people/po_wei_huang.jpg",
+            "quote": "I see a quantum silhouetto of a man, Scaramouch (x2), will you do the entangle?",
+            "links": {
+                "fa-envelope": "mailto:huangpowei22@u.nus.edu",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?&user=gciMEcAAAAAJ",
+                "fa-globe": "http://georgepwhuang.github.io"
+            }
+        }
+    ],
+    "Research Interns": [
         {
             "name": "Aman Agrawal",
             "role": "MSc Student",
             "image": "files/images/people/blank.webp",
             "quote": "",
             "links": {}
-        },
-        {
-            "name": "Po-Wei Huang",
-            "role": "Research Assistant",
-            "image": "files/images/people/po_wei_huang.jpg",
-            "quote": "Panicking in the quantum universe.",
-            "links": {
-                "fa-envelope": "mailto:huangpowei22@u.nus.edu",
-                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?&user=gciMEcAAAAAJ",
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/huangpowei",
-                "fa-globe": "http://georgepwhuang.github.io"
-            }
         },
         {
             "name": "Petr Ivashkov",
@@ -156,9 +176,11 @@
         {
             "name": "Nayanthara Prathap",
             "role": "Research Intern",
-            "image": "files/images/people/blank.webp",
-            "quote": "",
-            "links": {}
+            "image": "files/images/people/nayanthara_prathap.jpg",
+            "quote": "Figuring out why the word 'quantum' hasn't been patented yet!",
+            "links": {
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/nayanthara-prathap"
+            }
         },
         {
             "name": "Elaina Zhu Wenxin",

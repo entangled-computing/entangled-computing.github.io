@@ -37,7 +37,7 @@ piData.then(data => {
       </div>
     </div>
   </div>
-  <hr class="divider-w">`;
+  `;
   area.innerHTML = htmlStr;
 });
 
@@ -48,7 +48,7 @@ memberData.then(data => {
   htmlStr = "";
   for (let position in data) {
     htmlStr += `
-    <section class="module-extra-small">
+    <section class="module-small">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2">
@@ -71,7 +71,7 @@ memberData.then(data => {
         <div class="team-item">
           <div class="team-image"><img src="${item["image"]}"/>
             <div class="team-detail">
-              <p class="font-serif">${item["quote"]}</p>
+              <p class="font-serif team-quote">${item["quote"]}</p>
               <div class="team-social">
       `;
       links = item["links"];
@@ -118,11 +118,11 @@ alumData.then(data => {
     <div class="row">
       <div class="menu">
         <div class="row">
-          <div class="col-xs-10 col-sm-5 col-xs-offset-1">
+          <div class="col-xs-10 col-sm-4 col-xs-offset-1">
             <h4 class="menu-title font-alt">${item["name"]}</h4>
             <div class="menu-detail font-alt">${item["details"]}</div>
           </div>
-          <div class="col-xs-10 col-sm-5 col-xs-offset-1 col-sm-offset-0 menu-price-detail">
+          <div class="col-xs-10 col-sm-6 col-xs-offset-1 col-sm-offset-0 menu-price-detail">
             <h4 class="menu-price font-serif">${item["whereabouts"]}</h4>
           </div>
         </div>

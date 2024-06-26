@@ -14,6 +14,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -38,6 +48,11 @@ iframe {
 .leftauto {
   right: 0 !important;
   left: auto !important;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Transition elsements */
@@ -578,8 +593,8 @@ a,
 .scroll-up {
   position: fixed;
   display: none;
-  bottom: 7px;
-  right: 7px;
+  bottom: 14px;
+  right: 14px;
   z-index: 999;
 }
 
@@ -1430,7 +1445,6 @@ General Styles - Owlcarousel
 /* About us Page Header */
 .about-page-header {
   max-height: 35vw;
-  margin-bottom: 30px;
 }
 
 
@@ -1702,7 +1716,7 @@ Google map
 }
 
 .team-item:hover .team-image:after {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .team-item:hover .team-detail {
@@ -2462,6 +2476,33 @@ Google map
   background: rgba(17, 17, 17, 0.8);
 }
 
+.pagination > li > a
+{
+    background-color: white;
+    color: #111;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover
+{
+    color: #444;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #111 !Important;
+    border: solid 1px #111 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #111 !Important;
+    border: solid 1px #111;
+}
+
 /*--------------------------------------------------------------
 	Comment Box in Blog
 --------------------------------------------------------------*/
@@ -2901,7 +2942,7 @@ pre {
     position: relative;
     height: 300px;
   }
-  .module-title {
+  .about-page-header .module-title {
     margin-top: -10px
   }
 }
@@ -3061,13 +3102,17 @@ pre {
     max-width: fit-content;
     display: block;
   }
-  .module-title {
+  .about-page-header .module-title {
     margin-top: -20px;
+  }
+  
+  .module-title {
     margin-bottom: 35px;
   }
   .team-descr {
     min-height: 6em;
   }
+  
 }
 
 @media only screen and (max-width: 480px) {
@@ -3085,5 +3130,8 @@ pre {
   }
   .team-descr {
     min-height: 8em;
+  }
+  .team-quote {
+    display: none;
   }
 }
