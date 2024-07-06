@@ -48,7 +48,7 @@ memberData.then(data => {
   htmlStr = "";
   for (let position in data) {
     htmlStr += `
-    <section class="module-small">
+    <section class="module-extra-small">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2">

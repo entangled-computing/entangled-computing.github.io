@@ -292,7 +292,7 @@ a,
 
 .bg-dark-60:before {
   position: absolute;
-  background: rgba(10, 10, 10, 0.8);
+  background: rgba(20, 20, 20, 0.7);
   content: " ";
   height: 100%;
   width: 100%;
@@ -302,7 +302,7 @@ a,
 
 .bg-dark-90:before {
   position: absolute;
-  background: rgba(10, 10, 10, 0.9);
+  background: rgba(10, 10, 10, 0.8);
   content: " ";
   height: 100%;
   width: 100%;
@@ -883,7 +883,7 @@ a,
 	Typography
 --------------------------------------------------------------*/
 a {
-  color: #111;
+  color: #19B5FE;
 }
 
 a:hover, a:focus {
@@ -1347,7 +1347,7 @@ General Styles - Owlcarousel
   right: 0;
   top: 50%;
   margin-top: -6px;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px/1 "Font Awesome 6 Free";
   font-size: 9px;
   content: "\f107";
   text-rendering: auto;
@@ -2350,7 +2350,7 @@ Google map
   content: "\f106";
   top: 50%;
   right: 0px;
-  font-family: "FontAwesome";
+  font-family: ""Font Awesome 6 Free"";
   line-height: 1;
   font-size: 14px;
   margin-top: -7px;
@@ -2846,7 +2846,7 @@ pre {
     right: 9px;
     top: 50%;
     margin-top: -6px;
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 14px/1 "Font Awesome 6 Free";
     font-size: 9px;
     content: "\f105";
     text-rendering: auto;

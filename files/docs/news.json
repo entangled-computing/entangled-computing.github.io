@@ -1,4 +1,16 @@
-[    
+[       
+    {
+        "headline": "Dinh-Long joined the group as a research fellow.",
+        "description": "",
+        "date": "2024-07-01",
+        "links": []
+    },
+    {
+        "headline": "Work accepted as talk at AQIS 2024",
+        "description": "Concept learning of quantum models from limited measurements.",
+        "date": "2024-06-29",
+        "links": []
+    },
     {
         "headline": "Debbie will be visiting the group for two months.",
         "description": "",
@@ -30,9 +42,9 @@
         "links": []
     },
     {
-        "headline": "Paper accepted as talk at TQC 2024",
+        "headline": "Work accepted as talk at TQC 2024",
         "description": "The Quantum Esscher Transform",
-        "date": "2024-04-14",
+        "date": "2024-04-15",
         "links": []
     },
     {

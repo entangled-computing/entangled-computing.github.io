@@ -21,13 +21,6 @@
             }
         },
         {
-            "name": "Debbie Lim",
-            "role": "Visiting Postdoc",
-            "image": "files/images/people/blank.webp",
-            "quote": "",
-            "links": {}
-        },
-        {
             "name": "Feng Pan",
             "role": "Research Fellow",
             "image": "files/images/people/feng_pan.jpg",
@@ -44,6 +37,15 @@
             "quote": "",
             "links": {
                 "fa-brands fa-linkedin": "https://www.linkedin.com/in/lirandepira/"
+            }
+        },
+        {
+            "name": "Dinh-Long Vu",
+            "role": "Research Fellow",
+            "image": "files/images/people/dinh_long_vu.jpg",
+            "quote": "",
+            "links": {
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/dlvu"
             }
         }
     ],
@@ -62,7 +64,7 @@
         {
             "name": "Naixu Guo",
             "role": "CQT PhD Student",
-            "image": "files/images/people/blank.webp",
+            "image": "files/images/people/naixu_guo.jpg",
             "quote": "",
             "links": {
                 "fa-envelope": "mailto:naixug@u.nus.edu",
@@ -140,14 +142,7 @@
             }
         }
     ],
-    "Research Interns": [
-        {
-            "name": "Aman Agrawal",
-            "role": "MSc Student",
-            "image": "files/images/people/blank.webp",
-            "quote": "",
-            "links": {}
-        },
+    "Master Students": [
         {
             "name": "Petr Ivashkov",
             "role": "Visiting MSc Student",
@@ -162,17 +157,19 @@
         {
             "name": "Ruben Maarek",
             "role": "MSc Student",
-            "image": "files/images/people/blank.webp",
+            "image": "files/images/people/ruben_maarek.webp",
             "quote": "",
             "links": {}
         },
         {
             "name": "Maxime Meyer",
             "role": "MSc Student",
-            "image": "files/images/people/blank.webp",
+            "image": "files/images/people/maxime_meyer.webp",
             "quote": "",
             "links": {}
-        },
+        }
+    ],
+    "Research Interns": [
         {
             "name": "Nayanthara Prathap",
             "role": "Research Intern",

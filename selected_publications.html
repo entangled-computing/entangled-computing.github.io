@@ -40,6 +40,16 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="files/images/background/publications.jpg" rel="preload" as="image" fetchpriority="high">
+
+    <style>
+      [class="Patrick Rebentrost"] {
+        text-decoration-line: underline;
+      }
+      
+      [class="P. Rebentrost"] {
+        text-decoration-line: underline;
+      }
+      </style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -55,14 +65,19 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">quantum operations research</a>
+            <a class="navbar-brand" href="index.html">the last quantum mechanic</a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="news.html">news</a></li>
               <li><a href="people.html">people</a></li>
               <li><a href="research.html">research</a></li>
-              <li><a href="#">publications</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" href="group_publications.html" data-toggle="dropdown">publications</a>
+                <ul class="dropdown-menu">
+                  <li><a href="group_publications.html">2022-present</a></li>
+                  <li><a href="#">Pre-2021 (selected)</a></li>
+                </ul>
+              </li>
               <li><a href="join.html">join us</a></li>
             </ul>
           </div>
@@ -73,68 +88,73 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt"><b>Publications</b></h2>
+                <h2 class="module-title font-alt" style="margin-bottom: 0;"><b>Selected Publications pre-PR group</b></h2>
               </div>
             </div>
           </div>
         </section>
-        <section class="module-small biblist">
-          <div class="bibtex_structure">
-            <div class="group year col-sm-10 col-sm-offset-1" extra="DESC number">
-              <div class="sort date" extra="DESC date">
-                <div class="templates">
+        <section class="module-small">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <p>
+                  This page contains the list of selected publications by Patrick before forming the group. 
+                  For a list of publications after the group was formed, click <a href="/group_publications.html">here</a>. 
+                  For the full list of publications by Patrick, click <a href="https://scholar.google.com/citations?user=XWHSBmUAAAAJ" target="_blank">here</a> to visit his Google Scholar page.
+                </p>
                 </div>
-              </div>
             </div>
           </div>
-          <div class="container" id="bibtex_display">
-              <div class="bibtex_template" style="display: none;">
+        </section>
+        <section class="biblist mb-70">
+          <div class="container bibtex_display">
+              <div class="bibtex_template col-sm-10 col-sm-offset-1" style="display: none;">
                 <div class="menu">
                   <div class="bibitem">
-                    <span class="bibtexVar entry" style="display: none;" key="+BIBTEXKEY+" extra="BIBTEXKEY"></span>
-                    <span class="if BIBTEXTYPEKEY==ARTICLE"><span class="label label-primary">Journal</span></span>
-                    <span class="if BIBTEXTYPEKEY==INPROCEEDINGS"><span class="label label-info">Conference</span></span>
-                    <span class="if BIBTEXTYPEKEY==MISC"><span class="label label-default">Preprint</span></span>
-                    <span class="if title"><h4 class="menu-title" style="margin-top:10px"><span class="title"></span></h4></span>
-                    <div class="if author"><div class="menu-detail" style="text-transform: none;"><span class="author" conjunction=" and"></span></div></div>
-                    <div class="menu-price font-serif" style="margin-top:10px">
-                      <span class="if journal"><span class="journal"></span></span>
-                      <span class="if booktitle">In <span class="booktitle"></span><span class="if pages"><span class="if !volume">,,</span></span></span>
-                      <span class="if volume"><b><span class="volume"></span></b><span class="if pages">,</span></span>
-                      <span class="if pages"><span class="pages"></span></b></span>
-                      <span class="if archiveprefix"><span class="archiveprefix"></span> preprint:</span>
-                      <span class="if eprint"><span class="eprint"></span></span>
-                      <span class="if primaryclass">[<span class="primaryclass"></span>]</span>
-                      <span class="if year">(<span class="year"></span>)</span>
-                    </div>
-                    <div class="menu-price" style="margin-top:10px">
-                      <a class="bibtexVar btn btn-d btn-circle" role="button" key="+BIBTEXKEY+" extra="BIBTEXKEY" onclick="toggle(this)">
-                        <i class="fa fa-quote-left"></i> cite
-                      </a>
-                      <span class="if url">
-                        <a class="url btn btn-g btn-circle" role="button" target="_blank">
-                          <i class="fa fa-globe"></i> link
+                      <span class="bibtexVar entry" style="display: none;" key="+BIBTEXKEY+" extra="BIBTEXKEY"></span>
+                      <span class="if BIBTEXTYPEKEY==ARTICLE"><span class="label label-primary">Journal</span></span>
+                      <span class="if BIBTEXTYPEKEY==INPROCEEDINGS"><span class="label label-info">Conference</span></span>
+                      <span class="if BIBTEXTYPEKEY==MISC"><span class="label label-default">Preprint</span></span>
+                      <span class="if title"><h4 class="menu-title" style="margin-top:10px"><span class="title"></span></h4></span>
+                      <div class="if author"><div class="menu-detail" style="text-transform: none;"><span class="author" conjunction=" and"></span></div></div>
+                      <div class="menu-price font-serif" style="margin-top:10px">
+                        <span class="if journal"><span class="journal"></span></span>
+                        <span class="if booktitle">In <span class="booktitle"></span><span class="if pages"><span class="if !volume">,,</span></span></span>
+                        <span class="if volume"><b><span class="volume"></span></b><span class="if pages">,</span></span>
+                        <span class="if pages"><span class="pages"></span></b></span>
+                        <span class="if archiveprefix"><span class="archiveprefix"></span> preprint:</span>
+                        <span class="if eprint"><span class="eprint"></span></span>
+                        <span class="if primaryclass">[<span class="primaryclass"></span>]</span>
+                        <span class="if year">(<span class="year"></span>)</span>
+                      </div>
+                      <div class="menu-price" style="margin-top:10px">
+                        <a class="bibtexVar btn btn-d btn-circle" role="button" key="+BIBTEXKEY+" extra="BIBTEXKEY" onclick="toggle(this)">
+                          <i class="fa fa-quote-left"></i> cite
                         </a>
-                      </span>
-                      <span class="if !url">
-                        <span class="if doi">
-                          <a class="bibtexVar btn btn-g btn-circle " href="http://dx.doi.org/+DOI+" extra="doi" target="_blank">
+                        <span class="if url">
+                          <a class="url btn btn-g btn-circle" role="button" target="_blank">
                             <i class="fa fa-globe"></i> link
                           </a>
                         </span>
-                      </span>
-                      <span class="if !url">
-                        <span class="if !doi">
-                          <span class="if eprint">
-                            <a class="bibtexVar btn btn-g btn-circle" href="https://arxiv.org/abs/+EPRINT+" extra="eprint" target="_blank" >
+                        <span class="if !url">
+                          <span class="if doi">
+                            <a class="bibtexVar btn btn-g btn-circle " href="http://dx.doi.org/+DOI+" extra="doi" target="_blank">
                               <i class="fa fa-globe"></i> link
                             </a>
                           </span>
                         </span>
-                      </span>
-                    </div>
-                    <div class="bib bibtexVar" id="bib+BIBTEXKEY+" extra="BIBTEXKEY" style="margin-top:10px;">
-                      <pre><span class="bibtexraw"></span></pre>
+                        <span class="if !url">
+                          <span class="if !doi">
+                            <span class="if eprint">
+                              <a class="bibtexVar btn btn-g btn-circle" href="https://arxiv.org/abs/+EPRINT+" extra="eprint" target="_blank" >
+                                <i class="fa fa-globe"></i> link
+                              </a>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                      <div class="bib bibtexVar" id="bib+BIBTEXKEY+" extra="BIBTEXKEY" style="margin-top:10px;">
+                        <pre><span class="bibtexraw"></span></pre>
                     </div>
                   </div>
                 </div>
@@ -146,7 +166,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <p class="copyright font-alt">&copy; <span class="this-year"></span> <a href="index.html">quantum operations research</a><br/>
+              <p class="copyright font-alt">&copy; <span class="this-year"></span> <a href="index.html">the last quantum mechanic</a><br/>
               Last updated <span class="last-modified"></span>, Powered by <a href="https://themewagon.com/themes/titan/">TITAN</a></p>
             </div>
           </div>
@@ -154,7 +174,7 @@
       </footer>
       <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
-    <bibtex src="files/docs/ref.bib" style="display: none"></bibtex>
+    <bibtex src="files/docs/select_ref.bib" style="display: none"></bibtex>
     <!--  
     JavaScripts
     =============================================

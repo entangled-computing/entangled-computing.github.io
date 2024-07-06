@@ -76,14 +76,14 @@ newsData.then(data => {
       <div class="row news-${Math.floor(i/15)}" style="display:none">
         <div class="menu">
             <div class="row">
-            <div class="col-xs-12 col-sm-7 col-sm-offset-1">
+            <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">
                 <h4 class="menu-title font-serif">${item["headline"]}</h4>
                 <div class="menu-detail" style="text-transform: none">${item["description"]}</div>
             </div>
-            <div class="col-xs-12 col-sm-3 menu-price-detail">
+            <div class="col-xs-12 col-sm-3 col-md-2 menu-price-detail">
                 <h4 class="menu-price" style="font-size:16px">${toDateString(item["date"])}</h4>
             </div>
-            <div class="col-xs-12 col-sm-7 col-sm-offset-1">
+            <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">
                 <div class="menu-price" style="margin-top:10px">
       `;
       links = item["links"];
