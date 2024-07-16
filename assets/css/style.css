@@ -3140,9 +3140,9 @@ pre {
     color: #fff;
   }
   .team-descr {
-    min-height: 8em;
+    min-height: 4em;
   }
-  .team-quote {
+  .team-quote, .team-role {
     display: none;
   }
 }
