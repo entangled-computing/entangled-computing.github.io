@@ -3123,6 +3123,10 @@ pre {
 }
 
 @media only screen and (max-width: 480px) {
+  p {
+    text-align: left;
+  }
+
   .work-item,
   .works-grid-3 .work-item,
   .works-grid-4 .work-item,
