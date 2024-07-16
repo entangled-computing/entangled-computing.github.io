@@ -41,7 +41,7 @@ piData.then(data => {
   area.innerHTML = htmlStr;
 });
 
-const memberData = fetch("files/docs/members.json").then(response => {return response.json();})
+const memberData = fetch("files/docs/main_members.json").then(response => {return response.json();})
 
 memberData.then(data => {
   area = document.getElementById("members");
@@ -102,34 +102,40 @@ memberData.then(data => {
   area.innerHTML = htmlStr;
 });
 
-const alumData = fetch("files/docs/alumni.json").then(response => {return response.json();})
+const otherData = fetch("files/docs/other_members.json").then(response => {return response.json();})
 
-alumData.then(data => {
-  area = document.getElementById("alum");
-  htmlStr = `
-  <div class="row">
-    <div class="col-sm-6 col-sm-offset-3">
-      <h2 class="module-title font-alt">Alumni</h2>
-    </div>
-  </div>`;
-  for (let i = 0, len = data.length; i < len; i++) {
-    item = data[i];
+otherData.then(data => {
+  area = document.getElementById("others");
+  htmlStr = "";
+  for (let position in data) {
     htmlStr += `
-    <div class="row">
-      <div class="menu">
+    <section class="module-extra-small">
+      <div class="container">
         <div class="row">
-          <div class="col-xs-10 col-sm-4 col-xs-offset-1">
-            <h4 class="menu-title font-alt">${item["name"]}</h4>
-            <div class="menu-detail font-alt">${item["details"]}</div>
+          <div class="col-sm-8 col-sm-offset-2">
+            <h2 class="module-title font-alt">${position}</h2>
           </div>
-          <div class="col-xs-10 col-sm-6 col-xs-offset-1 col-sm-offset-0 menu-price-detail">
-            <h4 class="menu-price font-serif">${item["whereabouts"]}</h4>
+        </div>
+    `;
+    let group = data[position];
+    for (let i = 0, len = group.length; i < len; i++) {
+      item = group[i];
+      htmlStr += `
+      <div class="row">
+        <div class="menu">
+          <div class="row">
+            <div class="col-xs-10 col-sm-4 col-xs-offset-1">
+              <h4 class="menu-title font-alt">${item["name"]}</h4>
+              <div class="menu-detail font-alt">${item["details"]}</div>
+            </div>
+            <div class="col-xs-10 col-sm-6 col-xs-offset-1 col-sm-offset-0 menu-price-detail">
+              <h4 class="menu-price font-serif">${item["whereabouts"]}</h4>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     `;
     htmlStr += `</section>`;
-  }
+  }}
   area.innerHTML = htmlStr;
 });

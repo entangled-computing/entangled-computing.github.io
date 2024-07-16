@@ -45,7 +45,8 @@
             "image": "files/images/people/dinh_long_vu.jpg",
             "quote": "",
             "links": {
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/dlvu"
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/dlvu",
+                "ai ai-lg ai-researchgate": "https://www.researchgate.net/profile/Vu-Dinh-Long"
             }
         }
     ],
@@ -76,7 +77,7 @@
             "name": "Kelvin Koor",
             "role": "CQT PhD Student",
             "image": "files/images/people/kelvin_koor.jpg",
-            "quote": "",
+            "quote": "I like Mondays.",
             "links": {
                 "fa-envelope": "mailto:kelvinkoor@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=0zF67qgAAAAJ"
@@ -155,14 +156,14 @@
             }
         },
         {
-            "name": "Ruben Maarek",
+            "name": "Ruben David Maarek",
             "role": "MSc Student",
             "image": "files/images/people/ruben_maarek.webp",
             "quote": "",
             "links": {}
         },
         {
-            "name": "Maxime Meyer",
+            "name": "Maxime V. Meyer",
             "role": "MSc Student",
             "image": "files/images/people/maxime_meyer.webp",
             "quote": "",
@@ -177,6 +178,15 @@
             "quote": "Figuring out why the word 'quantum' hasn't been patented yet!",
             "links": {
                 "fa-brands fa-linkedin": "https://www.linkedin.com/in/nayanthara-prathap"
+            }
+        },
+        {
+            "name": "Peeranat Sanglaor",
+            "role": "Research Intern",
+            "image": "files/images/people/blank.webp",
+            "quote": "",
+            "links": {
+                "fa-brands fa-linkedin": "https://www.linkedin.com/in/peeranat-sanglaor-67556b183/"
             }
         },
         {

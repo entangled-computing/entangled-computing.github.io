@@ -29,6 +29,10 @@ img {
   height: auto;
 }
 
+p {
+  text-align: justify;
+}
+
 iframe {
   border: 0;
 }
@@ -1590,7 +1594,7 @@ Google map
 .features-icon,
 .alt-features-icon {
   line-height: 1.2;
-  font-size: 42px;
+  font-size: 48px;
   color: #111;
 }
 
@@ -1727,6 +1731,9 @@ Google map
   transform: translateY(50%);
 }
 
+.team-quote {
+  text-align: center;
+}
 /*--------------------------------------------------------------
 	Restaurant Menu
 --------------------------------------------------------------*/
