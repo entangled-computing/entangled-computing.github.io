@@ -3034,7 +3034,7 @@ pre {
     font-weight: 400;
   }
   .titan-title-size-3 {
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     font-size: 30px;
   }
   .titan-title-size-4 {
@@ -3144,5 +3144,23 @@ pre {
   }
   .team-quote, .team-role {
     display: none;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .navbar-custom .navbar-brand {
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+  }
+  .titan-title-size-2-5 {
+    letter-spacing: 0px;
+    font-size: 20px;
+    opacity: .8;
+    font-weight: 400;
+  }
+  .titan-title-size-3 {
+    letter-spacing: 3px;
+    font-size: 30px;
   }
 }
