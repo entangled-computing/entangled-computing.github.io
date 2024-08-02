@@ -77,7 +77,7 @@
             "name": "Kelvin Koor",
             "role": "CQT PhD Student",
             "image": "files/images/people/kelvin_koor.jpg",
-            "quote": "I like Mondays.",
+            "quote": "",
             "links": {
                 "fa-envelope": "mailto:kelvinkoor@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=0zF67qgAAAAJ"
@@ -103,6 +103,7 @@
             "quote": "",
             "links": {
                 "fa-envelope": "mailto:yixian_qiu@u.nus.edu",
+                "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=sVqwmRYAAAAJ",
                 "fa-brands fa-linkedin": "https://www.linkedin.com/in/yixian-qiu"
             }
         },
