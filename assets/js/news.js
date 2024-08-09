@@ -65,35 +65,41 @@ newsData.then(data => {
 
 newsData.then(data => {
     area = document.getElementById("news");
-    if (area.classList.contains('full')) {
-        len = data.length;
-    } else {
-        len = Math.min(5, data.length);
-    }
+    len = data.length;
     for (let i = 0; i < len; i++) {
       item = data[i];
       htmlStr += `
       <div class="row news-${Math.floor(i/15)}" style="display:none">
         <div class="menu">
-            <div class="row">
-            <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">
+            <div class="row mb-10">
+      `
+      if (!item["image"]) {
+        htmlStr += `
+            <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">`
+      } else {
+        htmlStr += `
+            <div class="col-xs-6 col-sm-2 col-md-2 col-xs-offset-3 col-sm-offset-1">
+                <img src="${item["image"]}" class="mb-sm-30" style="object-fit:cover; object-position: center; border-radius: 1em;"/>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-6">`
+      }
+      htmlStr += `        
                 <h4 class="menu-title font-serif">${item["headline"]}</h4>
-                <div class="menu-detail" style="text-transform: none">${item["description"]}</div>
+                <div class="menu-detail" style="text-transform: none">${item["description"]}</div>`
+      if (item["links"]) {
+        htmlStr += `<div class="menu-price mb-0 mt-10">`;
+        links = item["links"];
+        color = ["d", "g", "border-d"];
+        for (let j = 0, linklen = links.length; j < linklen; j++) {
+          let linker = links[j];
+          htmlStr += `<a class="btn btn-${color[j%3]} btn-circle" href="${linker["href"]}" target="_blank"><i class="fa ${linker["icon"]}"></i> ${linker["description"]}</a> `;
+        }
+        htmlStr += `</div>`;
+      }
+      htmlStr += `
             </div>
             <div class="col-xs-12 col-sm-3 col-md-2 menu-price-detail">
                 <h4 class="menu-price" style="font-size:16px">${toDateString(item["date"])}</h4>
-            </div>
-            <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">
-                <div class="menu-price" style="margin-top:10px">
-      `;
-      links = item["links"];
-      color = ["d", "g", "border-d"];
-      for (let j = 0, linklen = links.length; j < linklen; j++) {
-        let linker = links[j];
-        htmlStr += `<a class="btn btn-${color[j%3]} btn-circle mb-sm-10" href="${linker["href"]}" target="_blank"><i class="fa ${linker["icon"]}"></i> ${linker["description"]}</a> `;
-      }
-      htmlStr += `   
-            </div>
             </div>
             </div>
         </div>
@@ -101,20 +107,18 @@ newsData.then(data => {
       `;
     }
     let maxPage = Math.ceil(len/15)-1;
-    if (area.classList.contains('full')) {
-      htmlStr += `
-      <div class="row" style="text-align:center">
-      <ul class="pagination">
-        <li><a target="_self" role="button" onclick="decPage()"><i class="fa fa-angle-left"></i></a></li>
-        <li class="active" id="pagination-0" ><a target="_self" role="button" onclick="setPage(0)">1</a></li>`
-      for (let i = 1; i < maxPage + 1; i++) {
-        htmlStr += `<li id="pagination-${i}"><a target="_self" role="button" onclick="setPage(${i})">${i+1}</a></li>`
-      }
-      htmlStr += `
-        <li><a target="_self" role="button" onclick="incPage(${maxPage})"><i class="fa fa-angle-right"></i></a></li>
-      </ul>
-      </div>`
+    htmlStr += `
+    <div class="row" style="text-align:center">
+    <ul class="pagination">
+      <li><a target="_self" role="button" onclick="decPage()"><i class="fa fa-angle-left"></i></a></li>
+      <li class="active" id="pagination-0" ><a target="_self" role="button" onclick="setPage(0)">1</a></li>`
+    for (let i = 1; i < maxPage + 1; i++) {
+      htmlStr += `<li id="pagination-${i}"><a target="_self" role="button" onclick="setPage(${i})">${i+1}</a></li>`
     }
+    htmlStr += `
+      <li><a target="_self" role="button" onclick="incPage(${maxPage})"><i class="fa fa-angle-right"></i></a></li>
+    </ul>
+    </div>`
     area.innerHTML = htmlStr;
     document.querySelectorAll('.news-0').forEach(entry => {
       entry.removeAttribute('style', 'display:none');
