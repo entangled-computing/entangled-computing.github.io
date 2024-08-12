@@ -123,7 +123,7 @@ otherData.then(data => {
       htmlStr += `
       <div class="row">
         <div class="menu">
-          <div class="row mb-10 mb-xs-0">
+          <div class="row mb-xs-0">
             <div class="col-xs-10 col-sm-4 col-xs-offset-1">
               <h4 class="menu-title font-alt">${item["name"]}</h4>
             </div>

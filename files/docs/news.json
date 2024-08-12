@@ -1,33 +1,51 @@
 [    
     {
-        "headline": "Qiuhao and Xinbiao from Wuhan University will be visiting the group for two and three months respsectively.",
+        "headline": "New paper posted on arXiv",
+        "description": "Concept learning of parameterized quantum models from limited measurements",
+        "date": "2024-08-12",
+        "links":[
+            {
+                "icon": "fa-book-open",
+                "description": "Read the paper",
+                "href": "https://arxiv.org/abs/2408.05116"
+            }
+        ]
+    },
+    {
+        "headline": "Works accepted as talks at QTML 2024",
+        "description": "Quantum linear algebra is all you need for Transformer architectures<br/> Concept learning of parameterized quantum models from limited measurements<br/>Quantum algorithms for the pathwise lasso",
+        "date": "2024-08-10",
+        "image": "files/images/news/qtml2024.jpg"
+    },
+    {
+        "headline": "Qiuhao and Xinbiao from Wuhan University will be visiting the group for two and three months respsectively",
         "description": "",
         "date": "2024-07-10"
     },  
     {
-        "headline": "Dinh-Long joined the group as a research fellow.",
+        "headline": "Dinh-Long joined the group as a research fellow",
         "description": "",
         "date": "2024-07-01",
         "image": "files/images/people/dinh_long_vu.jpg"
     },
     {
         "headline": "Work accepted as talk at AQIS 2024",
-        "description": "Concept learning of quantum models from limited measurements.",
+        "description": "Concept learning of quantum models from limited measurements",
         "date": "2024-06-29"
     },
     {
-        "headline": "Debbie will be visiting the group for two months.",
+        "headline": "Debbie will be visiting the group for two months",
         "description": "",
         "date": "2024-06-25"
     },
     {
-        "headline": "Lirandë joined the group as a research fellow.",
+        "headline": "Lirandë joined the group as a research fellow",
         "description": "",
         "date": "2024-06-18",
         "image": "files/images/people/lirande_pira.jpg"
     },
     {
-        "headline": "New paper posted on arXiv.",
+        "headline": "New paper posted on arXiv",
         "description": "Quantum algorithm for large-scale market equilibrium computation",
         "date": "2024-05-22",
         "links":[
@@ -39,7 +57,7 @@
         ]
     },
     {
-        "headline": "Kelvin joined the group as a PhD student.",
+        "headline": "Kelvin joined the group as a PhD student",
         "description": "",
         "date": "2024-05-13",
         "image": "files/images/people/kelvin_koor.jpg"
@@ -47,7 +65,8 @@
     {
         "headline": "Work accepted as talk at TQC 2024",
         "description": "The Quantum Esscher Transform",
-        "date": "2024-04-15"
+        "date": "2024-04-15",
+        "image": "files/images/news/tqc2024.jpeg"
     },
     {
         "headline": "Patrick gave a talk at The 3rd Quantum Computing Workshop",
@@ -55,7 +74,7 @@
         "date": "2024-04-12"
     },
     {
-        "headline": "New paper posted on arXiv.",
+        "headline": "New paper posted on arXiv",
         "description": "Efficient Quantum Circuits for Machine Learning Activation Functions including Constant T-depth ReLU",
         "date": "2024-04-09",
         "links":[
@@ -67,12 +86,13 @@
         ]
     },
     {
-        "headline": "Soumik joined the group as a research fellow.",
+        "headline": "Soumik joined the group as a research fellow",
         "description": "",
-        "date": "2024-04-08"
+        "date": "2024-04-08",
+        "image": "files/images/people/soumik_adhikary.jpg"
     },
     {
-        "headline": "New paper posted on arXiv.",
+        "headline": "New paper posted on arXiv",
         "description": "Quantum linear algebra is all you need for Transformer architectures",
         "date": "2024-02-26",
         "links":[
@@ -84,12 +104,12 @@
         ]
     },
     {
-        "headline": "Paper published on Quantum Information Processing.",
+        "headline": "Paper published on Quantum Information Processing",
         "description": "A quantum online portfolio optimization algorithm",
         "date": "2024-02-16"
     },
     {
-        "headline": "New paper posted on arXiv.",
+        "headline": "New paper posted on arXiv",
         "description": "The Quantum Esscher Transform",
         "date": "2024-01-15",
         "links": [

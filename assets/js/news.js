@@ -78,7 +78,7 @@ newsData.then(data => {
             <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">`
       } else {
         htmlStr += `
-            <div class="col-xs-6 col-sm-2 col-md-2 col-xs-offset-3 col-sm-offset-1">
+            <div class="col-xs-4 col-sm-2 col-md-2 col-xs-offset-4 col-sm-offset-1">
                 <img src="${item["image"]}" class="mb-sm-30" style="object-fit:cover; object-position: center; border-radius: 1em;"/>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-6">`
