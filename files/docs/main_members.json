@@ -36,7 +36,7 @@
             "image": "files/images/people/lirande_pira.jpg",
             "quote": "",
             "links": {
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/lirandepira/"
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/lirandepira/"
             }
         },
         {
@@ -45,7 +45,6 @@
             "image": "files/images/people/dinh_long_vu.jpg",
             "quote": "",
             "links": {
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/dlvu",
                 "ai ai-lg ai-researchgate": "https://www.researchgate.net/profile/Vu-Dinh-Long"
             }
         }
@@ -59,7 +58,7 @@
             "links": {
                 "fa-envelope": "mailto:gan.bengyee@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=pTkE29cAAAAJ",
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/gan-beng-yee/"
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/gan-beng-yee/"
             }
         },
         {
@@ -91,7 +90,7 @@
             "links": {                
                 "fa-envelope": "mailto:lixiufan@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=4gbZkGYAAAAJ",
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/xiufan-li-366012244/",
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/xiufan-li-366012244/",
                 "fa-brands fa-orcid": "https://orcid.org/0000-0002-1449-406X",
                 "fa-brands fa-github": "https://github.com/LiXiufan"
             }
@@ -104,7 +103,7 @@
             "links": {
                 "fa-envelope": "mailto:yixian_qiu@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=sVqwmRYAAAAJ",
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/yixian-qiu"
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/yixian-qiu"
             }
         },
         {
@@ -128,7 +127,7 @@
             "links": {
                 "fa-envelope": "mailto:jbao@nus.edu.sg",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=U1TGq_gAAAAJ",
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/jinge-bao",
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/jinge-bao",
                 "fa-globe": "http://dsxxxk.github.io"
             }
         },
@@ -153,7 +152,7 @@
             "links": {
                 "fa-envelope": "mailto:ivashkov.peter@gmail.com",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=8oaDN2IAAAAJ",
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/ivashkov-petr/"      
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/ivashkov-petr/"      
             }
         },
         {
@@ -178,7 +177,7 @@
             "image": "files/images/people/nayanthara_prathap.jpg",
             "quote": "Figuring out why the word 'quantum' hasn't been patented yet!",
             "links": {
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/nayanthara-prathap"
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/nayanthara-prathap"
             }
         },
         {
@@ -187,7 +186,7 @@
             "image": "files/images/people/blank.webp",
             "quote": "",
             "links": {
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/peeranat-sanglaor-67556b183/"
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/peeranat-sanglaor-67556b183/"
             }
         },
         {
@@ -197,7 +196,7 @@
             "quote": "",
             "links": {
                 "fa-envelope": "mailto:zhuwenxin426@gmail.com",
-                "fa-brands fa-linkedin": "https://www.linkedin.com/in/elaina-zhu-wenxin-117538241/",
+                "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/elaina-zhu-wenxin-117538241/",
                 "fa-globe": "https://elainazhu.com"
             }
         }
