@@ -35,8 +35,10 @@
   # Below is optional, omit if not needed
   quote: <text>
   links:
-  - <fa-icon-code>: <url>
-  - <fa-icon-code>: <url>
+  - icon: <fa-icon-code>
+    href: <url>
+  - icon: <fa-icon-code>
+    href: <url>
 ```
 
 _Note: New categories can be added directly as well._

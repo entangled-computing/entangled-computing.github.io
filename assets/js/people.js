@@ -75,8 +75,9 @@ for (let position in memberData) {
     htmlStr += `<div class="team-social">`;
     if (item["links"]) {
       links = item["links"];
-      for (let icon in links){
-        htmlStr += `<a href="${links[icon]}" target="_blank"><i class="fa ${icon}"></i></a>`;
+      for (let j = 0, len = links.length; j < len; j++) {
+        link = links[j]
+        htmlStr += `<a href="${link["href"]}" target="_blank"><i class="fa ${link["icon"]}"></i></a>`;
       }
     }
     htmlStr += `          
