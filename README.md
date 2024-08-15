@@ -3,7 +3,7 @@
 ### Add publication
 
 1. Go to `files/docs/group_ref.bib` and add bibtex entry (preferably cleaned)
-    - If there is a previous version already in the bibtex file, remove it.
+    - If there is a previous version already in the bibtex file or in the `files/docs/select_ref.bib` file, remove it.
     - If the bibtex entry does not contain information either on `year` and `month`, please add both as it impacts the sorting algorithm for displaying the publications in the correct order.
 1. Check if all authors in the group are found in `files/docs/names.txt`. This determines which names are underlined.
 
@@ -14,9 +14,9 @@
 ```json
 {
     "headline": "<required>",
-    "description": "<empty-string-if-not-applicable>",
     "date": "<required>",
-    //The following two fields are optional and can be directly omitted if not used.
+    //The following three fields are optional and can be directly omitted if not used.
+    "description": "<text>",
     "links":[
         {
             "icon": "<fa-icon-code>", //see FontAwesome for icon list and entry code
@@ -38,11 +38,11 @@
     "name": "<required>",
     "role": "<required>",
     "image": "<path-to-image>",
-    "quote": "<empty-string-if-not-applicable>",
+    //The following two fields are optional and can be directly omitted if not used.
+    "quote": "<text>",
     "links": {
         "<fa-icon-code>": "<url>",
         "<fa-icon-code>": "<url>"
-        //Leave blank if no links are provided, but the links field should still be present
     }
 }
 ```
@@ -55,8 +55,9 @@ _Note: New categories can be added directly as well._
 ```json
 {
     "name": "<required>",
-    "details": "<empty-string-if-not-applicable>",
-    "whereabouts": "<empty-string-if-not-applicable>"
+    "details": "<required>",
+    //The following fields is optional and can be directly omitted if not used.
+    "whereabouts": "<text>"
 }
 ```
 

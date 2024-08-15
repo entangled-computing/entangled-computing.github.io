@@ -71,12 +71,16 @@ memberData.then(data => {
         <div class="team-item">
           <div class="team-image"><img src="${item["image"]}" style="object-fit: scale-down;"/>
             <div class="team-detail">
-              <p class="font-serif team-quote">${item["quote"]}</p>
-              <div class="team-social">
-      `;
-      links = item["links"];
-      for (let icon in links){
-        htmlStr += `<a href="${links[icon]}" target="_blank"><i class="fa ${icon}"></i></a>`;
+      `
+      if (item["quote"]) {
+        htmlStr += `<p class="font-serif team-quote">${item["quote"]}</p>`
+      }
+      htmlStr += `<div class="team-social">`;
+      if (item["links"]) {
+        links = item["links"];
+        for (let icon in links){
+          htmlStr += `<a href="${links[icon]}" target="_blank"><i class="fa ${icon}"></i></a>`;
+        }
       }
       htmlStr += `          
               </div>
@@ -131,15 +135,20 @@ otherData.then(data => {
               <h4 class="menu-detail font-alt">${item["details"]}</h4>
             </div>
           </div>
-          <div class="row">
+          `
+      if (item["whereabouts"]) {
+        htmlStr += `
+        <div class="row">
             <div class="col-xs-10 col-sm-10 col-xs-offset-1">
               <h4 class="menu-price font-serif">${item["whereabouts"]}</h4>
             </div>
           </div>
+          `
+      }
+      htmlStr += `
         </div>
       </div>
-    `;
-    htmlStr += `</section>`;
+      </section>`;
   }}
   area.innerHTML = htmlStr;
 });

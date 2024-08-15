@@ -34,7 +34,6 @@
             "name": "Lirandë Pira",
             "role": "Research Fellow",
             "image": "files/images/people/lirande_pira.jpg",
-            "quote": "",
             "links": {
                 "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/lirandepira/"
             }
@@ -43,7 +42,6 @@
             "name": "Dinh-Long Vu",
             "role": "Research Fellow",
             "image": "files/images/people/dinh_long_vu.jpg",
-            "quote": "",
             "links": {
                 "ai ai-lg ai-researchgate": "https://www.researchgate.net/profile/Vu-Dinh-Long"
             }
@@ -76,7 +74,6 @@
             "name": "Kelvin Koor",
             "role": "CQT PhD Student",
             "image": "files/images/people/kelvin_koor.jpg",
-            "quote": "",
             "links": {
                 "fa-envelope": "mailto:kelvinkoor@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=0zF67qgAAAAJ"
@@ -99,7 +96,6 @@
             "name": "Yixian Qiu",
             "role": "CQT PhD Student",
             "image": "files/images/people/yixian_qiu.jpg",
-            "quote": "",
             "links": {
                 "fa-envelope": "mailto:yixian_qiu@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=sVqwmRYAAAAJ",
@@ -110,7 +106,6 @@
             "name": "Zhan Yu",
             "role": "CQT PhD Student",
             "image": "files/images/people/zhan_yu.jpg",
-            "quote": "",
             "links": {
                 "fa-envelope": "mailto:yu.zhan@u.nus.edu",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=cF8RgGwAAAAJ",
@@ -123,7 +118,6 @@
             "name": "Jinge Bao",
             "role": "Research Assistant",
             "image": "files/images/people/jinge_bao.jpg",
-            "quote": "",
             "links": {
                 "fa-envelope": "mailto:jbao@nus.edu.sg",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=U1TGq_gAAAAJ",
@@ -148,7 +142,6 @@
             "name": "Petr Ivashkov",
             "role": "Visiting MSc Student",
             "image": "files/images/people/petr_ivashkov.jpg",
-            "quote": "",
             "links": {
                 "fa-envelope": "mailto:ivashkov.peter@gmail.com",
                 "fa-brands fa-google-scholar": "https://scholar.google.com/citations?user=8oaDN2IAAAAJ",
@@ -158,16 +151,12 @@
         {
             "name": "Ruben Maarek",
             "role": "MSc Student",
-            "image": "files/images/people/ruben_maarek.webp",
-            "quote": "",
-            "links": {}
+            "image": "files/images/people/ruben_maarek.webp"
         },
         {
             "name": "Maxime Meyer",
             "role": "MSc Student",
-            "image": "files/images/people/maxime_meyer.webp",
-            "quote": "",
-            "links": {}
+            "image": "files/images/people/maxime_meyer.webp"
         }
     ],
     "Research Interns": [
@@ -184,7 +173,6 @@
             "name": "Peeranat Sanglaor",
             "role": "Research Intern",
             "image": "files/images/people/blank.webp",
-            "quote": "",
             "links": {
                 "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/peeranat-sanglaor-67556b183/"
             }
@@ -193,7 +181,6 @@
             "name": "Elaina Zhu Wenxin",
             "role": "Research Intern",
             "image": "files/images/people/elaina_zhu.jpg",
-            "quote": "",
             "links": {
                 "fa-envelope": "mailto:zhuwenxin426@gmail.com",
                 "fa-brands fa-linkedin-in": "https://www.linkedin.com/in/elaina-zhu-wenxin-117538241/",

@@ -83,9 +83,10 @@ newsData.then(data => {
             </div>
             <div class="col-xs-12 col-sm-5 col-md-6">`
       }
-      htmlStr += `        
-                <h4 class="menu-title font-serif">${item["headline"]}</h4>
-                <div class="menu-detail" style="text-transform: none">${item["description"]}</div>`
+      htmlStr += `<h4 class="menu-title font-serif">${item["headline"]}</h4>`
+      if (item["description"]) {
+        htmlStr += `<div class="menu-detail" style="text-transform: none">${item["description"]}</div>`
+      }
       if (item["links"]) {
         htmlStr += `<div class="menu-price mb-0 mt-10">`;
         links = item["links"];
