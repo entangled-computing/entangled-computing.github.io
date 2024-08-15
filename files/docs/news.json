@@ -7,9 +7,6 @@
                 "icon": "fa-book-open",
                 "description": "Read the paper",
                 "href": "https://link.springer.com/article/10.1007/s13218-024-00870-9"
-            }
-        ]
-         "links":[
             {
                 "icon": "fa-book-open",
                 "description": "Read the arXiv paper",
