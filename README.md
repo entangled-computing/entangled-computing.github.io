@@ -10,55 +10,45 @@
 ### Add news 
 
 1. Put image in `files/images/news` folder if applicable
-1. Go to `files/docs/news.json` and add an entry in the following format:
-```json
-{
-    "headline": "<required>",
-    "date": "<required>",
-    //The following three fields are optional and can be directly omitted if not used.
-    "description": "<text>",
-    "links":[
-        {
-            "icon": "<fa-icon-code>", //see FontAwesome for icon list and entry code
-            "description": "<required>",
-            "href": "<url>"
-        }
-    ],
-    "image": "<path-to-image>"
-}
+1. Go to `files/docs/news.yml` and add an entry in the following format:
+```yml
+- headline: <required-text>
+  date: <yyyy-mm-dd>
+  # Below is optional, omit if not needed
+  description: <text>
+  image: <path-to-image>
+  links: # The following three fields are all required if links are provided.
+  - icon: <fa-icon> # See FontAwesome
+    description: <text>
+    href: <url>
 ```
 
 ### Add new primary members 
 
 1. Resize portrait picture to 512x512 pixels
 1. Put image in `files/images/people` folder 
-1. Go to `files/docs/main_members.json` and add an entry in the following format under correct category:
-```json
-{
-    "name": "<required>",
-    "role": "<required>",
-    "image": "<path-to-image>",
-    //The following two fields are optional and can be directly omitted if not used.
-    "quote": "<text>",
-    "links": {
-        "<fa-icon-code>": "<url>",
-        "<fa-icon-code>": "<url>"
-    }
-}
+1. Go to `files/docs/main_members.yml` and add an entry in the following format under correct category:
+```yaml
+- name: <required-text>
+  role: <required-text>
+  image: <path-to-image>
+  # Below is optional, omit if not needed
+  quote: <text>
+  links:
+  - <fa-icon-code>: <url>
+  - <fa-icon-code>: <url>
 ```
 
 _Note: New categories can be added directly as well._
 
 ### Add new secondary members 
 
-1. Go to `files/docs/other_members.json` and add an entry in the following format under correct category:
-```json
-{
-    "name": "<required>",
-    "details": "<required>",
-    //The following fields is optional and can be directly omitted if not used.
-    "whereabouts": "<text>"
-}
+1. Go to `files/docs/other_members.yml` and add an entry in the following format under correct category:
+```yml
+- name: <required-text>
+  details: <required-text>
+  # Below is optional, omit if not needed
+  whereabouts: <text>
 ```
 
 _Note: New categories can be added directly as well._
