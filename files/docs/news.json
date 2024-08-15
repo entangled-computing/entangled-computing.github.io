@@ -1,4 +1,21 @@
-[    
+[   {
+        "headline": "The paper Quantum computational finance: quantum algorithm for portfolio optimization with Seth Lloyd was accepted in a special issue on quantum computing.",
+        "date": "2024-08-15",
+        "links":[
+            {
+                "icon": "fa-book-open",
+                "description": "Read the paper",
+                "href": "https://link.springer.com/article/10.1007/s13218-024-00870-9"
+            }
+        ]
+         "links":[
+            {
+                "icon": "fa-book-open",
+                "description": "Read the arXiv paper",
+                "href": "https://arxiv.org/abs/1811.03975"
+            }
+        ]
+    }, 
     {
         "headline": "New paper posted on arXiv",
         "description": "Concept learning of parameterized quantum models from limited measurements",
