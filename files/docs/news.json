@@ -95,12 +95,12 @@
         "image": "files/images/news/tqc2024.jpeg"
     },
     {
-        "headline": "Patrick gave a talk at The 3rd Quantum Computing Workshop",
+        "headline": "Patrick gave a talk at The 3rd Quantum Computing Workshop.",
         "description": "Quantum linear algebra is all you need for Transformer architectures",
         "date": "2024-04-12"
     },
     {
-        "headline": "\"Efficient Quantum Circuits for Machine Learning Activation Functions including Constant T-depth ReLU\" has been posted on arXiv",
+        "headline": "\"Efficient Quantum Circuits for Machine Learning Activation Functions including Constant T-depth ReLU\" has been posted on arXiv.",
         "date": "2024-04-09",
         "links":[
             {
@@ -111,12 +111,12 @@
         ]
     },
     {
-        "headline": "Soumik joined the group as a research fellow",
+        "headline": "Soumik joined the group as a research fellow.",
         "date": "2024-04-08",
         "image": "files/images/people/soumik_adhikary.jpg"
     },
     {
-        "headline": "\"Quantum linear algebra is all you need for Transformer architectures\" has been posted on arXiv",
+        "headline": "\"Quantum linear algebra is all you need for Transformer architectures\" has been posted on arXiv.",
         "date": "2024-02-26",
         "links":[
             {
@@ -127,12 +127,11 @@
         ]
     },
     {
-        "headline": "The paper \"A quantum online portfolio optimization algorithm\" was accepted to Quantum Information Processing",
+        "headline": "The paper \"A quantum online portfolio optimization algorithm\" was accepted to Quantum Information Processing.",
         "date": "2024-02-16"
     },
     {
-        "headline": "New paper posted on arXiv",
-        "description": "The Quantum Esscher Transform",
+        "headline": "\"The Quantum Esscher Transform\" has been posted on arXiv.",
         "date": "2024-01-15",
         "links": [
             {
