@@ -1,7 +1,29 @@
-[   
+[       
+    {
+    "headline": "The paper \"Quantum computational finance for martingale asset pricing in incomplete markets\" was accepted to Scientific Reports.",
+    "date": "2024-08-15",
+    "links":[
+        {
+            "icon": "fa-book-open",
+            "description": "Read the paper",
+            "href": "https://www.nature.com/articles/s41598-024-68838-1"
+        }
+    ]
+    }, 
+    {
+        "headline": "The paper \"Deep-learning-based quantum algorithms for solving nonlinear partial differential equations\" was accepted to Physical Review A.",
+        "date": "2024-08-14",
+        "links":[
+            {
+                "icon": "fa-book-open",
+                "description": "Read the paper",
+                "href": "https://link.aps.org/doi/10.1103/PhysRevA.110.022612"
+            }
+        ]
+    }, 
     {
         "headline": "The paper \"Quantum computational finance: quantum algorithm for portfolio optimization\" was accepted in a special issue on quantum computing.",
-        "date": "2024-08-15",
+        "date": "2024-08-12",
         "links":[
             {
                 "icon": "fa-book-open",
@@ -11,8 +33,7 @@
         ]
     }, 
     {
-        "headline": "New paper posted on arXiv",
-        "description": "Concept learning of parameterized quantum models from limited measurements",
+        "headline": "\"Concept learning of parameterized quantum models from limited measurements\" has been posted on arXiv.",
         "date": "2024-08-12",
         "links":[
             {
@@ -23,37 +44,36 @@
         ]
     },
     {
-        "headline": "Works accepted as talks at QTML 2024",
+        "headline": "Three works have been accepted as talks at QTML 2024.",
         "description": "Quantum linear algebra is all you need for Transformer architectures<br/> Concept learning of parameterized quantum models from limited measurements<br/>Quantum algorithms for the pathwise lasso",
         "date": "2024-08-10",
         "image": "files/images/news/qtml2024.jpg"
     },
     {
-        "headline": "Qiuhao and Xinbiao from Wuhan University will be visiting the group for two and three months respectively",
+        "headline": "Qiuhao and Xinbiao from Wuhan University will be visiting the group for two and three months respectively.",
         "date": "2024-07-10"
     },  
     {
-        "headline": "Dinh-Long joined the group as a research fellow",
+        "headline": "Dinh-Long joined the group as a research fellow.",
         "date": "2024-07-01",
         "image": "files/images/people/dinh_long_vu.jpg"
     },
     {
-        "headline": "Work accepted as talk at AQIS 2024",
+        "headline": "A work has been accepted as a talk at AQIS 2024.",
         "description": "Concept learning of quantum models from limited measurements",
         "date": "2024-06-29"
     },
     {
-        "headline": "Debbie will be visiting the group for two months",
+        "headline": "Debbie from the University of Latvia will be visiting the group for two months.",
         "date": "2024-06-25"
     },
     {
-        "headline": "Lirandë joined the group as a research fellow",
+        "headline": "Lirandë joined the group as a research fellow.",
         "date": "2024-06-18",
         "image": "files/images/people/lirande_pira.jpg"
     },
     {
-        "headline": "New paper posted on arXiv",
-        "description": "Quantum algorithm for large-scale market equilibrium computation",
+        "headline": "\"Quantum algorithm for large-scale market equilibrium computation\" has been posted on arXiv.",
         "date": "2024-05-22",
         "links":[
             {
@@ -64,12 +84,12 @@
         ]
     },
     {
-        "headline": "Kelvin joined the group as a PhD student",
+        "headline": "Kelvin joined the group as a PhD student.",
         "date": "2024-05-13",
         "image": "files/images/people/kelvin_koor.jpg"
     },
     {
-        "headline": "Work accepted as talk at TQC 2024",
+        "headline": "Work accepted as talk at TQC 2024.",
         "description": "The Quantum Esscher Transform",
         "date": "2024-04-15",
         "image": "files/images/news/tqc2024.jpeg"
@@ -80,8 +100,7 @@
         "date": "2024-04-12"
     },
     {
-        "headline": "New paper posted on arXiv",
-        "description": "Efficient Quantum Circuits for Machine Learning Activation Functions including Constant T-depth ReLU",
+        "headline": "\"Efficient Quantum Circuits for Machine Learning Activation Functions including Constant T-depth ReLU\" has been posted on arXiv",
         "date": "2024-04-09",
         "links":[
             {
@@ -97,8 +116,7 @@
         "image": "files/images/people/soumik_adhikary.jpg"
     },
     {
-        "headline": "New paper posted on arXiv",
-        "description": "Quantum linear algebra is all you need for Transformer architectures",
+        "headline": "\"Quantum linear algebra is all you need for Transformer architectures\" has been posted on arXiv",
         "date": "2024-02-26",
         "links":[
             {
@@ -109,8 +127,7 @@
         ]
     },
     {
-        "headline": "Paper published on Quantum Information Processing",
-        "description": "A quantum online portfolio optimization algorithm",
+        "headline": "The paper \"A quantum online portfolio optimization algorithm\" was accepted to Quantum Information Processing",
         "date": "2024-02-16"
     },
     {
