@@ -4,10 +4,10 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
  * Preloader
  /* ---------------------------------------------- */
 (function(){
-    $(window).on('load', function() {
+    /*$(window).on('load', function() {
         $('.loader').fadeOut();
         $('.page-loader').fadeOut();
-    });
+    });*/
 
     $(document).ready(function() {
 
