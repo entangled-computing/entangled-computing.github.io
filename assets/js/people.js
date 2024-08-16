@@ -122,7 +122,6 @@ for (let position in otherData) {
   for (let i = 0, len = group.length; i < len; i++) {
     item = group[i];
     htmlStr += `
-    <div class="row">
       <div class="menu">
         <div class="row mb-xs-0">
           <div class="col-xs-10 col-sm-4 col-xs-offset-1">
@@ -135,7 +134,7 @@ for (let position in otherData) {
         `
     if (item["whereabouts"]) {
       htmlStr += `
-      <div class="row">
+        <div class="row">
           <div class="col-xs-10 col-sm-10 col-xs-offset-1">
             <h4 class="menu-price font-serif">${item["whereabouts"]}</h4>
           </div>
@@ -143,8 +142,8 @@ for (let position in otherData) {
         `
     }
     htmlStr += `
-      </div>
-    </div>
-    </section>`;
-}}
+      </div>`;
+  }
+  htmlStr += "</section>"
+}
 otherArea.innerHTML = htmlStr;
