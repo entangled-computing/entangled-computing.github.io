@@ -28,7 +28,7 @@ for (let i = 0; i < len; i++) {
     <div class="menu">
         <div class="row">
         <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">
-            <h4 class="menu-title font-serif">${item["headline"]}</h4>`
+            <h4 class="menu-title">${item["headline"]}</h4>`
   if (item["links"]) {
     htmlStr += `<div class="menu-price mb-0 mt-10">`;
     links = item["links"];
