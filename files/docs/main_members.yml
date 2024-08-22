@@ -39,6 +39,7 @@ Postdoctoral Researchers:
   links:
   - icon: ai ai-lg ai-researchgate
     href: https://www.researchgate.net/profile/Vu-Dinh-Long
+
 PhD Students:
 - name: Beng Yee Gan
   role: CQT PhD Student
@@ -105,6 +106,7 @@ PhD Students:
     href: https://scholar.google.com/citations?user=cF8RgGwAAAAJ
   - icon: fa-globe
     href: https://eyesfrog.github.io
+    
 Research Assistants:
 - name: Jinge Bao
   role: Research Assistant
@@ -129,6 +131,7 @@ Research Assistants:
     href: https://scholar.google.com/citations?&user=gciMEcAAAAAJ
   - icon: fa-globe
     href: http://georgepwhuang.github.io
+
 Master Students:
 - name: Petr Ivashkov
   role: Visiting MSc Student
@@ -146,6 +149,7 @@ Master Students:
 - name: Maxime Meyer
   role: MSc Student
   image: files/images/people/maxime_meyer.webp
+
 Research Interns:
 - name: Nayanthara Prathap
   role: Research Intern

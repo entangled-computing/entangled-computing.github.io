@@ -71,13 +71,13 @@ for (let i = 0; i < len; i++) {
   `
   if (!item["image"]) {
     htmlStr += `
-        <div class="col-xs-12 col-sm-7 col-md-8 col-sm-offset-1">`
+        <div class="col-xs-12 col-sm-9 col-md-8 col-md-offset-1">`
   } else {
     htmlStr += `
-        <div class="col-xs-6 col-sm-2 col-md-2 col-xs-offset-3 col-sm-offset-1">
+        <div class="col-xs-6 col-sm-3 col-md-2 col-xs-offset-3 col-sm-offset-0 col-md-offset-1">
             <img src="${item["image"]}" class="mb-sm-30" style="object-fit:cover; object-position: center; border-radius: 1em;"/>
         </div>
-        <div class="col-xs-12 col-sm-5 col-md-6">`
+        <div class="col-xs-12 col-sm-6">`
   }
   htmlStr += `<h4 class="menu-title">${item["headline"]}</h4>`
   if (item["description"]) {
