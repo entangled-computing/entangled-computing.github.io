@@ -128,17 +128,13 @@ Research Assistants:
     href: mailto:v.mathew@u.nus.edu
   - icon: fa-brands fa-linkedin-in
     href: https://www.linkedin.com/in/mathew-vanherreweghe
-- name: Po-Wei Huang
-  role: Research Assistant
-  image: files/images/people/po_wei_huang.jpg
-  quote: I see a quantum silhouetto of a man, Scaramouch (x2), will you do the entangle?
+- name: Nayanthara Prathap
+  role: Research Intern
+  image: files/images/people/nayanthara_prathap.jpg
+  quote: Figuring out why the word 'quantum' hasn't been patented yet!
   links:
-  - icon: fa-envelope
-    href: mailto:huangpowei22@u.nus.edu
-  - icon: fa-brands fa-google-scholar
-    href: https://scholar.google.com/citations?&user=gciMEcAAAAAJ
-  - icon: fa-globe
-    href: http://georgepwhuang.github.io
+  - icon: fa-brands fa-linkedin-in
+    href: https://www.linkedin.com/in/nayanthara-prathap
 
 Master Students:
 - name: Petr Ivashkov
@@ -159,26 +155,3 @@ Master Students:
   image: files/images/people/maxime_meyer.webp
 
 Research Interns:
-- name: Nayanthara Prathap
-  role: Research Intern
-  image: files/images/people/nayanthara_prathap.jpg
-  quote: Figuring out why the word 'quantum' hasn't been patented yet!
-  links:
-  - icon: fa-brands fa-linkedin-in
-    href: https://www.linkedin.com/in/nayanthara-prathap
-- name: Peeranat Sanglaor
-  role: Research Intern
-  image: files/images/people/blank.webp
-  links:
-  - icon: fa-brands fa-linkedin-in
-    href: https://www.linkedin.com/in/peeranat-sanglaor-67556b183/
-- name: Elaina Zhu Wenxin
-  role: Research Intern
-  image: files/images/people/elaina_zhu.jpg
-  links:
-  - icon: fa-envelope
-    href: mailto:zhuwenxin426@gmail.com
-  - icon: fa-brands fa-linkedin-in
-    href: https://www.linkedin.com/in/elaina-zhu-wenxin-117538241/
-  - icon: fa-globe
-    href: https://elainazhu.com
