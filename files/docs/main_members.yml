@@ -120,6 +120,14 @@ Research Assistants:
     href: https://www.linkedin.com/in/jinge-bao
   - icon: fa-globe
     href: http://dsxxxk.github.io
+- name: Mathew Vanherreweghe
+  role: Research Assistant
+  image: files/images/people/mathew_vhw.jpg
+  links:
+  - icon: fa-envelope
+    href: mailto:v.mathew@u.nus.edu
+  - icon: fa-brands fa-linkedin-in
+    href: https://www.linkedin.com/in/mathew-vanherreweghe
 - name: Po-Wei Huang
   role: Research Assistant
   image: files/images/people/po_wei_huang.jpg
