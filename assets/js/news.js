@@ -3,8 +3,7 @@ const newsData = YAML.load('files/docs/news.yml');
 const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function toDateString(date) {
-    const today = new Date();
-    const yyyy = today.getFullYear();
+    let yyyy = date.getFullYear();
     let mm = date.getMonth();
     let dd = date.getDate();
 
