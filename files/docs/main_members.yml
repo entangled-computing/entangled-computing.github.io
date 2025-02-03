@@ -22,6 +22,8 @@ Postdoctoral Researchers:
   role: Research Fellow
   image: files/images/people/lirande_pira.jpg
   links:
+  - icon: fa-envelope
+    href: mailto:lpira@nus.edu.sg
   - icon: fa-brands fa-linkedin-in
     href: https://www.linkedin.com/in/lirandepira/
 - name: Dinh-Long Vu
