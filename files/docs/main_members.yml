@@ -26,6 +26,8 @@ Postdoctoral Researchers:
     href: mailto:lpira@nus.edu.sg
   - icon: fa-brands fa-linkedin-in
     href: https://www.linkedin.com/in/lirandepira/
+  - icon: fa-globe
+    href: https://github.com/lirandepira
 - name: Dinh-Long Vu
   role: Research Fellow
   image: files/images/people/dinh_long_vu.jpg
@@ -101,18 +103,6 @@ PhD Students:
     href: https://eyesfrog.github.io
     
 Research Assistants:
-- name: Jinge Bao
-  role: Research Assistant
-  image: files/images/people/jinge_bao.jpg
-  links:
-  - icon: fa-envelope
-    href: mailto:jbao@nus.edu.sg
-  - icon: fa-brands fa-google-scholar
-    href: https://scholar.google.com/citations?user=U1TGq_gAAAAJ
-  - icon: fa-brands fa-linkedin-in
-    href: https://www.linkedin.com/in/jinge-bao
-  - icon: fa-globe
-    href: http://dsxxxk.github.io
 - name: Mathew Vanherreweghe
   role: Research Assistant
   image: files/images/people/mathew_vhw.jpg
@@ -121,17 +111,6 @@ Research Assistants:
     href: mailto:v.mathew@u.nus.edu
   - icon: fa-brands fa-linkedin-in
     href: https://www.linkedin.com/in/mathew-vanherreweghe
-- name: Po-Wei Huang
-  role: Research Assistant
-  image: files/images/people/po_wei_huang.jpg
-  quote: I see a quantum silhouetto of a man, Scaramouch (x2), will you do the entangle?
-  links:
-  - icon: fa-envelope
-    href: mailto:huangpowei22@u.nus.edu
-  - icon: fa-brands fa-google-scholar
-    href: https://scholar.google.com/citations?&user=gciMEcAAAAAJ
-  - icon: fa-globe
-    href: http://georgepwhuang.github.io
 
 Master Students:
 - name: Petr Ivashkov
