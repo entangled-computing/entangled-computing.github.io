@@ -103,6 +103,13 @@ PhD Students:
     href: https://eyesfrog.github.io
     
 Research Assistants:
+- name: Nayanthara Prathap
+  role: Research Intern
+  image: files/images/people/nayanthara_prathap.jpg
+  quote: Figuring out why the word 'quantum' hasn't been patented yet!
+  links:
+  - icon: fa-brands fa-linkedin-in
+    href: https://www.linkedin.com/in/nayanthara-prathap
 - name: Mathew Vanherreweghe
   role: Research Assistant
   image: files/images/people/mathew_vhw.jpg
@@ -131,13 +138,6 @@ Master Students:
   image: files/images/people/maxime_meyer.webp
 
 Research Interns:
-- name: Nayanthara Prathap
-  role: Research Intern
-  image: files/images/people/nayanthara_prathap.jpg
-  quote: Figuring out why the word 'quantum' hasn't been patented yet!
-  links:
-  - icon: fa-brands fa-linkedin-in
-    href: https://www.linkedin.com/in/nayanthara-prathap
 - name: Peeranat Sanglaor
   role: Research Intern
   image: files/images/people/blank.webp
