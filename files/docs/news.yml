@@ -1,8 +1,31 @@
----
+--- 
+- headline: The paper "Quantum Machine Learning: A Hands-on Tutorial for Machine Learning Practitioners and Researchers" has been posted on arXiv.
+  date: 2025-02-03
+  links:
+  - icon: fa-book-open
+    description: Read the paper
+    href: https://arxiv.org/abs/2502.01146
+    
+- headline: The paper "Online Learning of Pure States is as Hard as Mixed States" has been posted on arXiv.
+  date: 2025-02-02
+  links:
+  - icon: fa-book-open
+    description: Read the paper
+    href: https://arxiv.org/abs/2502.00823
+    
 - headline: Hitomi Mori from Osaka University is visiting the group for three months.
   date: 2025-02-06
+  
 - headline: Nikita Guseynov from Shanghai Jiao Tong University is visiting the group for one month.
   date: 2025-02-06
+
+- headline: The paper "Quantum Linear System Solvers: A Survey of Algorithms and Applications" has been posted on arXiv.
+  date: 2024-11-04
+  links:
+  - icon: fa-book-open
+    description: Read the paper
+    href: https://arxiv.org/abs/2411.02522
+  
 - headline: The paper "Quantum computational finance for martingale asset pricing in incomplete markets" was accepted to Scientific Reports.
   date: 2024-08-15
   links:
