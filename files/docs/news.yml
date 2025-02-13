@@ -32,6 +32,13 @@
   - icon: fa-book-open
     description: Read the paper
     href: https://arxiv.org/abs/2410.01173
+
+- headline: The paper "QKAN: Quantum Kolmogorov-Arnold Networks" has been posted on arXiv.
+  date: 2024-10-06
+  links:
+  - icon: fa-book-open
+    description: Read the paper
+    href: https://arxiv.org/abs/2410.04435
   
 - headline: The paper "Quantum computational finance for martingale asset pricing in incomplete markets" was accepted to Scientific Reports.
   date: 2024-08-15
